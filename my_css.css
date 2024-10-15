@@ -1,0 +1,41 @@
+.root{
+-fx-background-image: url("https://i.imgur.com/QVFUaZP.jpg?1?fb");
+ }
+@font-face {
+    font-family:'777';
+    src: url('C:\Users\user\IdeaProjects\Java\src\JavaFxgame\ses\8958.ttf');
+}
+.button{
+-fx-font-size:11pt;
+-fx-background-radius:10;
+
+}
+.label{
+-fx-text-fill:white;
+-fx-font-size:13pt;
+}
+.label-Err7or{
+-fx-text-fill:red;
+}
+.answer{
+}
+
+.button:hover{
+-fx-background-color:linear-gradient(#002663,#1a3156);
+    -fx-text-fill:white;
+}
+.textfield{
+-fx-font-family:'777';
+-fx-font-size:11pt;
+-fx-background-radius:6;
+-fx-background-image: url("https://i.imgur.com/QVFUaZP.jpg?1?fb");
+    -fx-border-color: white ;
+    -fx-prompt-text-fill:#e0e0e0;
+    -fx-border-width: 2;
+    -fx-border-radius:6;
+    -fx-text-fill:white;
+}
+.help{
+-fx-font-size:8pt;
+-fx-border-radius:50;
+}
